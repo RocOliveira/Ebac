@@ -20,14 +20,7 @@
             E clicar em login
             Então o sistema deverá exibir uma <mensagem> de alerta
 
-            | Usuário         | Senha | Mensagem                      |
-            | "José Hernesto" | "Abc" | "Usuário ou senha inválidos." |
+            | Usuário         | Senha    | Mensagem                      |
+            | "José Hernesto" | "Abc"    | "Usuário ou senha inválidos." |
+            | "José Hern"     | "Abc123" | "Usuário ou senha inválidos." |
 
-
-            Esquema do Cenário: autenticação inválida
-            Quando eu inserir usuário <usuário> ou <senha> inválido
-            E clicar em login
-            Então o sistema deverá exibir uma <mensagem> de alerta
-
-            | Usuário     | Senha    | Mensagem                      |
-            | "José Hern" | "Abc123" | "Usuário ou senha inválidos." |

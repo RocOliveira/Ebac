@@ -39,26 +39,19 @@
             | "Augusta Pullover Jacket" | "Orange" | "M"     | "12"       | "Quantidade excedida." |
 
 
-
             Esquema do Cenário: Escolha da cor desejada
             Dado que eu entre no site EBAC SHOP
-            Quando eu escolher o <produto>, <tamanho> e <quantidade> desejada e deixar sem preencher a cor
+            Quando eu escolher o produto Augusta Pullover Jacket, tamanho m, quantidade 5 e deixar sem preencher a cor
             E clicar em comprar
-            Então o sistema deverá apresentar a <mensagem>.
-
-            | Produto                   | Cor | Tamanho | Quantidade | Mensagem                  |
-            | "Augusta Pullover Jacket" |     | "M"     | "5"        | "Escolha a cor desejada." |
-
+            Então o sistema deverá apresentar a mensagem "Selecione a cor desejada".
 
 
             Esquema do Cenário: Escolha do tamanho desejado
             Dado que eu entre no site EBAC SHOP
-            Quando eu escolher o <produto>, <cor>, <quantidade> desejada e deixar sem preencher o tamanho
+            Quando eu escolher o produto Augusta Pullover Jacket, cor Orange, quantidade 5 e deixar sem preencher o tamanho
             E clicar em comprar
-            Então o sistema deverá apresentar a <mensagem>.
+            Então o sistema deverá apresentar a mensagem "Selecione o tamanho desejado".
 
-            | Produto                   | Cor      | Tamanho | Quantidade | Mensagem                         |
-            | "Augusta Pullover Jacket" | "Orange" |         | "5"        | "Selecionar o tamanho desejado." |
 
 
 
